@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.box1{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 7px 0px 0px 7px;
+}
+
+.box2{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.box3{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 7px 7px 0px;
+}
+
+.icon{
+    margin-left: 40px;
+    margin-top: 50px;
+    width: 58px;
+}
+
+h3{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 35px;
+    color: hsl(0, 0%, 95%);
+    margin-left: 40px;
+    margin-top: 32px;
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 80px;
+}
+
+.button1{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: hsl(31, 77%, 52%);
+    border-color: hsl(31, 77%, 52%);
+    margin-left: 40px;
+    border-radius: 500px;
+    width: 140px;
+    height: 45px;
+    margin-bottom: 50px;
+}
+
+.button2{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: hsl(184, 100%, 22%);
+    border-color: hsl(184, 100%, 22%);
+    margin-left: 40px;
+    border-radius: 500px;
+    width: 140px;
+    height: 45px;
+    margin-bottom: 50px;
+}
+
+.button3{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: hsl(179, 100%, 13%);
+    border-color: hsl(179, 100%, 13%);
+    margin-left: 40px;
+    border-radius: 500px;
+    width: 140px;
+    height: 45px;
+    margin-bottom: 50px;
+}
+
+.button1:hover{
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(31, 77%, 52%);
+}
+
+.button2:hover{
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(184, 100%, 22%);
+}
+
+.button3:hover{
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(179, 100%, 13%);
+}
+
+    @media screen and (max-device-width: 375px) {
+        body{
+            background-color: hsl(0, 0%, 95%);
+        }
+        
+        .flex-container{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: center;
+            margin: 20px;
+        }
+        
+        .box1{
+            background-color: hsl(31, 77%, 52%);
+            border-radius: 7px 7px 0px 0px;
+        }
+        
+        .box2{
+            background-color: hsl(184, 100%, 22%);
+        }
+        
+        .box3{
+            background-color: hsl(179, 100%, 13%);
+            border-radius: 0px 0px 7px 7px;
+        }
+        
+        .icon{
+            margin-left: 40px;
+            margin-top: 50px;
+            width: 58px;
+        }
+        
+        h3{
+            font-family: 'Big Shoulders Display', cursive;
+            font-size: 35px;
+            color: hsl(0, 0%, 95%);
+            margin-left: 40px;
+            margin-top: 32px;
+        }
+        
+        p{
+            font-family: 'Lexend Deca', sans-serif;
+            font-size: 15px;
+            color: hsla(0, 0%, 100%, 0.75);
+            margin-left: 40px;
+            margin-right: 40px;
+            margin-bottom: 80px;
+        }
+        
+        .button1{
+            font-family: 'Lexend Deca', sans-serif;
+            font-size: 15px;
+            color: hsl(31, 77%, 52%);
+            border-color: hsl(31, 77%, 52%);
+            margin-left: 40px;
+            border-radius: 500px;
+            width: 140px;
+            height: 45px;
+            margin-bottom: 50px;
+        }
+        
+        .button2{
+            font-family: 'Lexend Deca', sans-serif;
+            font-size: 15px;
+            color: hsl(184, 100%, 22%);
+            border-color: hsl(184, 100%, 22%);
+            margin-left: 40px;
+            border-radius: 500px;
+            width: 140px;
+            height: 45px;
+            margin-bottom: 50px;
+        }
+        
+        .button3{
+            font-family: 'Lexend Deca', sans-serif;
+            font-size: 15px;
+            color: hsl(179, 100%, 13%);
+            border-color: hsl(179, 100%, 13%);
+            margin-left: 40px;
+            border-radius: 500px;
+            width: 140px;
+            height: 45px;
+            margin-bottom: 50px;
+        }
+        
+    }
